@@ -37,8 +37,11 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 lg:px-12 flex justify-between items-center">
         {/* Logo */}
-        <a href="#home" className="font-serif text-xl sm:text-2xl lg:text-3xl font-bold text-primary flex-shrink-0">
-          Grevia Exports
+        <a href="#home" className="flex items-center gap-2 sm:gap-3 flex-shrink-0 group">
+          <img src="images/logo.webp" alt="Grevia Exports Logo" className="h-8 sm:h-10 lg:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
+          <span className="font-serif text-xl sm:text-2xl lg:text-3xl font-bold text-primary group-hover:text-primary-dark transition-colors">
+            Grevia Exports
+          </span>
         </a>
 
         {/* Desktop Nav */}

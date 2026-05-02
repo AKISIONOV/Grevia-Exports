@@ -12,7 +12,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-12 mb-12 sm:mb-16">
           {/* Brand Info */}
           <div className="space-y-4 sm:space-y-6 lg:col-span-1">
-            <h2 className="text-2xl sm:text-3xl font-serif font-bold text-accent">Grevia Exports</h2>
+            <div className="flex items-center gap-3">
+              <img src="images/logo.webp" alt="Grevia Exports Logo" className="h-10 sm:h-12 w-auto object-contain" />
+              <h2 className="text-2xl sm:text-3xl font-serif font-bold text-accent">Grevia Exports</h2>
+            </div>
             <p className="text-stone-300 leading-relaxed text-sm">
               {t('footer.brandDesc')}
             </p>
