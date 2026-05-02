@@ -38,7 +38,7 @@ const Hero = () => {
         
         {/* Hero Image */}
         <div className="relative h-64 sm:h-80 md:h-96 lg:h-[600px] w-full rounded-2xl shadow-2xl flex items-center justify-center bg-stone-200 border-4 border-white mt-8 lg:mt-0 overflow-hidden">
-          <img src="/images/hero.webp" alt="Premium Green Cardamom Pods" className="w-full h-full object-cover transition-transform duration-700 hover:scale-105" loading="eager" />
+          <img src="images/hero.webp" alt="Premium Green Cardamom Pods" className="w-full h-full object-cover transition-transform duration-700 hover:scale-105" loading="eager" />
         </div>
       </div>
       

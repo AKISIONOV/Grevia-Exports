@@ -54,7 +54,7 @@ const Products = () => {
   const productsData = [
     {
       category: t('categories.spices'),
-      imageSrc: "/images/spices.webp",
+      imageSrc: "images/spices.webp",
       varieties: ["Turmeric (Powder/Whole)", "Red Chili (Powder/Whole)", "Coriander (Powder/Seeds)", "Cumin Seeds", "Black Pepper", "Cloves", "Cinnamon"],
       quality: "Grade A, Export Quality, Lab Tested.",
       packaging: "25kg, 50kg bags or custom.",
@@ -62,7 +62,7 @@ const Products = () => {
     },
     {
       category: t('categories.rice'),
-      imageSrc: "/images/rice.webp",
+      imageSrc: "images/rice.webp",
       varieties: ["Basmati (Traditional/Aged)", "Non-Basmati", "Parboiled", "Broken", "Organic"],
       quality: "Premium grades, consistent length, minimal breakage.",
       packaging: "5kg, 10kg, 25kg, 50kg, custom branding.",
@@ -70,7 +70,7 @@ const Products = () => {
     },
     {
       category: t('categories.pulses'),
-      imageSrc: "/images/pulses.webp",
+      imageSrc: "images/pulses.webp",
       varieties: ["Toor Dal", "Moong Dal", "Urad Dal", "Chana Dal", "Masoor Dal", "Chickpeas (Kabuli/Desi)"],
       quality: "Cleaned, polished, size/color graded.",
       packaging: "25kg/50kg moisture-proof.",
@@ -78,7 +78,7 @@ const Products = () => {
     },
     {
       category: t('categories.cashews'),
-      imageSrc: "/images/cashews.webp",
+      imageSrc: "images/cashews.webp",
       varieties: ["W180", "W210", "W240", "W320", "W450", "Splits (sw)", "Pieces (LWP, SWP, BB)"],
       quality: "Grade A, uniform size, moisture controlled.",
       packaging: "Vacuum-sealed 10kg/25kg tins/cartons.",
@@ -86,7 +86,7 @@ const Products = () => {
     },
     {
       category: t('categories.cocopeat'),
-      imageSrc: "/images/cocopeat.webp",
+      imageSrc: "images/cocopeat.webp",
       varieties: ["Low EC", "High EC", "Blocks (5kg)", "Bales", "Coco Chips", "Coco Fiber"],
       quality: "Washed, buffered, pH balanced.",
       packaging: "Compressed blocks/bales.",
@@ -94,7 +94,7 @@ const Products = () => {
     },
     {
       category: t('categories.agro'),
-      imageSrc: "/images/agro.webp",
+      imageSrc: "images/agro.webp",
       varieties: ["Dry Fruits & Nuts", "Seeds (Sesame, Mustard)", "Sugar", "Tea", "Coffee Beans", "Jaggery", "Tamarind"],
       quality: "Carefully sourced, international parameters.",
       packaging: "Customizable.",
@@ -122,7 +122,7 @@ const Products = () => {
               <div className="absolute top-4 left-4 bg-accent text-primary-dark font-bold px-3 py-1 sm:px-4 sm:py-1.5 rounded-full text-xs sm:text-sm shadow-md z-10 uppercase tracking-wide">
                 {t('products.featured')}
               </div>
-              <img src="/images/featured.webp" alt="Premium Green Cardamom" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+              <img src="images/featured.webp" alt="Premium Green Cardamom" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
               <div className="absolute inset-0 bg-primary/10 transition-opacity duration-300 group-hover:opacity-0"></div>
             </div>
             <div className="md:col-span-3 p-6 sm:p-8 lg:p-12 flex flex-col justify-center relative">
